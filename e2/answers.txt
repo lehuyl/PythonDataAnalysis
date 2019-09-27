@@ -1,0 +1,8 @@
+1. The calculationdata['timestamp']*fit.slope + fit.intercept is the best fit line using the line equation y=mx+b where m is slope and b is y-intercept.
+The actual type of the calculation is a Pandas Series as the "x" is a Series here.
+fit.slope = 3.515929974847721e-08
+fit.intercept = -40.46415480898916
+
+2. The graph is plotted over the domain which is the series created from data['created_at'].
+The timestamp values are the same values as data['created_at'], but converted numerically for computations.
+Thus each timestamp in data['timestamp'] maps to a value in data['created_at'] which  means it can be plotted. And since the equation we used on the timestamps is the linear line equation, we end up with a line across the domain.

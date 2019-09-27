@@ -1,0 +1,5 @@
+1. I think LOESS got a smoother curve. Kalman still had a lot of noise in comparison, but one thing I noticed is that during spikes, Kalman generally result in more extreme values compared to when LOESS handles random spikes.
+
+2. The speed and heading degrees could be used to make a better prediction because you will know which direction you are going in. It could probably be put into a calculation based on which direction you are heading in and get a time from timestamp which would determine how far you moved in a certain direction.
+
+However the reason it didn't help much when the professor tried it, is probably because walking speed isn't fast at all so it had little effect on latitude and longitude position. Interesting results would probably be found if the GPS tracking was done inside a car instead of walking. 
