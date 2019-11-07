@@ -40,5 +40,5 @@ plt.xlabel('Day 2 Views')
 plt.xscale('log')
 plt.yscale('log')
 plt.plot(df['views_x'].values, df['views_y'].values, 'b.') # build plot 2
-#plt.show()
+plt.show()
 plt.savefig('wikipedia.png')

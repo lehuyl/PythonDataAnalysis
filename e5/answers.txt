@@ -1,0 +1,10 @@
+1. The square root made the skew look more like a normal distribution.
+
+2. Is the comment count similar for weekdays and weekends?
+	If p < 0.05 then no they are not similar, we reject the null hypothesis. 
+
+	The transformed data is the same.
+
+3. The transformed datasets graph is the easiest to look at, while not changing the dataset and question as much as fix #2 and #3.
+
+4. Mean of weekdays appears to be higher on average. But there is twice the amount of data (5 days vs. 2 days) of weekdays vs. weekends.

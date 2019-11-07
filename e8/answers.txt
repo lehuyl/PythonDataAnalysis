@@ -1,0 +1,5 @@
+1.  The KNN model appears to be the best for colour prediction because you can have more data points.
+
+2. The model is making reasonable mistakes, because the prediction it gives are cities in similar geographical locations thus the weather temperatures will be similar.
+
+An example is Seattle and Victoria -- Both on in Pacific Northwest. Ottawa - Toronto in Eastern Ontario.

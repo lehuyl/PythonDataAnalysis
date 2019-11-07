@@ -1,0 +1,11 @@
+1. NumPy was harder initially, as I had to learn how to intepret the data originally. Like what axis is what. Pandas has it labelled from the start which was helpful. Pandas, overall, was easier to code in because the Index data structure made it easier to work with the data. NumPy, I had to play and mix with many different functions to get going, whereas Pandas, you have a straight forward function and you can just throw it into an Index for call its functions. 
+
+Pandas took fewer lines of code and fewer small functions, so it is easier to understand.
+
+2. pivot_months_pandas = 20 ms ± 1.01 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
+
+pivot_months_loops = 625 ms ± 29.9 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+
+Iterations take much longer than doing all calculations in a single pass (O(n) vs O(1)). Plus built-in Python functions such as dict and enumerate take much longer than fast pandas functions, and there is also another loop for dictionary inversions. 
+
+Essentially there are 4 for loops inside pivot_months_loops as well as using built-in Python functions for data storage and manipulation causes it to take significantly more time than the single pass pandas functions in pivot_months_pandas.

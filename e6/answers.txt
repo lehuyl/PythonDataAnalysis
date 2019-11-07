@@ -1,0 +1,17 @@
+1. Most of the p-values are above 0.05. However it looks like we can conclude that instructors do in fact search more. But, it feels like we forced the data.
+
+2. We need to do 21 tests. 
+	
+With 21 tests, probability will be alpha/m = 0.05/21 = 0.00238095 approximately.
+
+3. 
+Ranking
+1. partition_sort
+2. qs1
+3. qs3
+4. qs4
+5. qs2
+6. qs5
+7. merge1
+
+qs2 and qs4 had a meandiff of 0 so these 2 had nondistinguishable times.

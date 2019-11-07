@@ -1,0 +1,53 @@
+Data1:
+	meanx = 8.717696
+	meany = 12.522874
+	stdx = 12.155517
+	stdy = 6.639964
+	rangex = 57.872933
+	rangey = 29.94924	
+	corrx = 0.950326	
+
+Data2:
+	meanx = -0.710787	
+	meany = -0.748987	
+	stdx = 11.481584	
+	stdy = 6.257918	
+	rangex = 60.918113	
+	rangey = 32.769119	
+	corr = 0.955153
+
+Data3:
+	meanx = 0.968907	
+	meany = 8.508535	
+	stdx = 2.235558	
+	stdy = 1.149301	
+	rangex = 6.967949	
+	rangey = 3.910137	
+	corr = 0.981937
+
+Data4: 
+	meanx = 49.905086	
+	meany = 18.553837	
+	stdx = 28.508611	
+	stdy = 16.545896	
+	rangex = 87.3767	
+	rangey = 44.56504	
+	corr = -0.081193
+
+Data5:
+	meanx 49.909994	
+	meany = 18.555525	
+	stdx = 28.500001	
+	stdy = 16.540796	
+	rangex = 86.714971	
+	rangey = 49.8787	
+	corr = -0.088236
+
+Data6:
+	meanx = 7.216155	
+	meany = 7.602215	
+	stdx = 11.921599	
+	stdy = 11.764382	
+	rangex = 59.73596	
+	rangey = 59.036231	
+	corr = 0.935069
